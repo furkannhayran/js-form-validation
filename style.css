@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    width: 40%;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 2px 2px 30px 22px rgba(0,0,0,0.1);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.label{
+    margin-top: 10px;
+}
+.form ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5px 25px;
+
+}
+input.error{
+    border: 1px solid red;
+}
+.btn{
+    display: flex;
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(247, 176, 45);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 25px;
+}
+input{
+    margin-top:5px ;
+    padding: 5px;
+    border: 1px solid black;
+}
+input:focus{
+    border: 1px solid rgba(0,0,0,0.5);
+}
+select{
+    padding: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+select.error{
+    border: 1px solid red;
+}
+textarea{
+    margin-top:5px ;
+    border: 1px solid black;
+}
+textarea.error{
+    border: 1px solid red;
+}
+textarea:focus{
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.error-msg{
+    margin-top: 3px;
+    color: red;
+    /* display: block; */
+}
